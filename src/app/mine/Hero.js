@@ -340,6 +340,17 @@ const Hero = () => {
           allowFullScreen
           className="w-full h-full"
         ></iframe>
+        <iframe
+          ref={videoRef}
+          width="800"
+          height="450"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full h-full"
+        ></iframe>
       </div>
     </section>
   );
