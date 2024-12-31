@@ -681,8 +681,6 @@ const Hero = () => {
           ref={videoRef}
           width="800"
           height="450"
-           width="800"
-          height="450"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
           title="YouTube video player"
           frameBorder="0"
