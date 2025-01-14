@@ -693,6 +693,48 @@ const Hero = () => {
         allowFullScreen
         className="w-full h-full"
       ></iframe>
+<<<<<<< HEAD
+      </div><div className="w-full h-full flex justify-center items-center">
+        {/* YouTube video */}
+        <iframe
+          ref={videoRef}
+          width="800"
+          height="450"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full h-full"
+          allowFullScreen
+          className="w-full h-full"
+        ></iframe>
+            <iframe
+          ref={videoRef}
+          width="800"
+          height="450"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full h-full"
+          allowFullScreen
+          className="w-full h-full"
+        ></iframe><iframe
+        ref={videoRef}
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="w-full h-full"
+        allowFullScreen
+        className="w-full h-full"
+      ></iframe>
+=======
       <iframe
         ref={videoRef}
         width="800"
@@ -706,6 +748,7 @@ const Hero = () => {
         allowFullScreen
         className="w-full h-full"
       ></iframe>
+>>>>>>> 87b7af4d92cf4eab414831899915847b97f0b597
       </div>
     </section>
   );
