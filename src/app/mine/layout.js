@@ -30,6 +30,10 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
-    </html>
+      </div>
+                <div className="text-2xl font-bold text-black">Realm</div>
+                <div class="w-[24px] h-[24px] bg-[#45473C] rounded-full">title</div>
+            </div >
+    </html >
   );
 }
