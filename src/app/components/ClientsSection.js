@@ -28,11 +28,6 @@ const ClientsSection = () => {
                         <img src="/client1.png" alt="Hive" className="w-40 h-auto" />
                         <img src="/client1.png" alt="Netflix" className="w-40 h-auto" />
                         {/* Repeat the logos to create a continuous scroll effect */}
-                        <img src="/client1.png" alt="Frame" className="w-40 h-auto" />
-                        <img src="/client1.png" alt="Casa Ensueño" className="w-40 h-auto" />
-                        <img src="/client1.png" alt="Construct LA" className="w-40 h-auto" />
-                        <img src="/client1.png" alt="Hive" className="w-40 h-auto" />
-                        <img src="/client1.png" alt="Netflix" className="w-40 h-auto" />
                     </div>
                 </div>
             </div>
