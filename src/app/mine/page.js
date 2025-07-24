@@ -14,6 +14,12 @@ export default function Home() {
         <Headline />
         <ClientsSection />
       </main>
+      <FullPageNavbar />
+        <main>
+        <Hero />
+        <Headline />
+        <ClientsSection />
+      </main>
     </>
   );
 }
