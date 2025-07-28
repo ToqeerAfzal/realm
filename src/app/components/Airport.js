@@ -8,6 +8,14 @@ const Airport = () => {
     const menuRef = useRef(null);
     const itemsRef = useRef([]);
 
+    const [isOpen, setIsOpen] = useState(false);
+    const menuRef = useRef(null);
+    const itemsRef = useRef([]);
+
+    const [isOpen, setIsOpen] = useState(false);
+    const menuRef = useRef(null);
+    const itemsRef = useRef([]);
+
     const toggleMenu = () => {
         if (isOpen) {
             // Close animation
@@ -18,14 +26,14 @@ const Airport = () => {
             gsap.fromTo(itemsRef.current,
                 { opacity: 0, y: 50 },
                 { opacity: 1, y: 0, duration: 0.6, stagger: 0.2, ease: 'power3.out' }
-            );"use client"
-            
+            ); "use client"
+
             import React, { useEffect, useRef } from "react";
             import { gsap } from "gsap";
-            
+
             const ClientsSection = () => {
                 const marqueeRef = useRef(null);
-            
+
                 useEffect(() => {
                     const logos = marqueeRef.current;
                     gsap.to(logos, {
@@ -35,7 +43,7 @@ const Airport = () => {
                         repeat: -1,
                     });
                 }, []);
-            
+
                 return (
                     <section className="bg-black py-12">
                         <div className="container mx-auto text-center">
@@ -70,9 +78,9 @@ const Airport = () => {
                     </section>
                 );
             };
-            
+
             export default ClientsSection;
-            
+
         }
         setIsOpen(!isOpen);
     };
