@@ -103,6 +103,18 @@ const Navbar = () => {
                 <div className="text-2xl font-bold text-black">Realm</div>
                 <div class="w-[24px] h-[24px] bg-[#45473C] rounded-full">title</div>
             </div>
+             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+                <div className="text-2xl font-bold text-black">Realm</div>
+                <div class="w-[24px] h-[24px] bg-[#45473C] rounded-full"></div>
+            </div>
+                <div className="text-2xl font-bold text-black">Realm</div>
+                <div className="text-2xl font-bold text-black">Realm</div>
+            </div>
+            </div>
+                <div className="text-2xl font-bold text-black">Realm</div>
+                <div class="w-[24px] h-[24px] bg-[#45473C] rounded-full">title</div>
+            </div>
         </nav>
     );
 };
