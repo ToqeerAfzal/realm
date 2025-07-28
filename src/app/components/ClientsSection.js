@@ -16,6 +16,16 @@ const ClientsSection = () => {
         });
     }, []);
 
+     useEffect(() => {
+        const logos = marqueeRef.current;
+        gsap.to(logos, {
+            x: "-100%",
+            duration: 20,
+            ease: "none",
+            repeat: -1,
+        });
+    }, [test1]);
+
     return (
         <section className="bg-black py-12">
             <div className="container mx-auto text-center">
