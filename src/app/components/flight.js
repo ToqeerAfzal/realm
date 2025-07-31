@@ -210,6 +210,11 @@ const FlightComponent = () => {
                     <li ref={el => (itemsRef.current[2] = el)} className="cursor-pointer">Services</li>
                     <li ref={el => (itemsRef.current[3] = el)} className="cursor-pointer">Contact</li>
                 </ul>
+                <ul className="text-4xl font-light text-white space-y-6">
+                    <li ref={el => (itemsRef.current[1] = el)} className="cursor-pointer">Work</li>
+                    <li ref={el => (itemsRef.current[2] = el)} className="cursor-pointer">Services</li>
+                    <li ref={el => (itemsRef.current[3] = el)} className="cursor-pointer">Contact</li>
+                </ul>
             </div>
         </>
     );
