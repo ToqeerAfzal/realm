@@ -24,6 +24,12 @@ export default function RootLayout({ children }) {
           {children}
           child content added
         </body>
+         <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {children}
+          child content added
+        </body>
       </body>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
