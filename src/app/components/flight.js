@@ -204,6 +204,10 @@ const FlightComponent = () => {
             >
                 <h1 ref={el => (itemsRef.current[0] = el)} className="text-6xl font-serif text-white mb-6">
                     Realm
+                </h1><h1 ref={el => (itemsRef.current[0] = el)} className="text-6xl font-serif text-white mb-6">
+                    Realm
+                </h1><h1 ref={el => (itemsRef.current[0] = el)} className="text-6xl font-serif text-white mb-6">
+                    Realm
                 </h1>
                 <ul className="text-4xl font-light text-white space-y-6">
                     <li ref={el => (itemsRef.current[1] = el)} className="cursor-pointer">Work</li>
