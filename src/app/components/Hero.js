@@ -152,6 +152,21 @@ const Hero = () => {
           toggleActions: 'play reverse play reverse',
         },
       }
+    );gsap.fromTo(
+      videoRef.current,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: 'top center',
+          end: 'bottom top',
+          scrub: true,
+          toggleActions: 'play reverse play reverse',
+        },
+      }
     );
   }, []);
 
