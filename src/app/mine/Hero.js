@@ -1054,7 +1054,7 @@ const Hero = () => {
           className="w-full h-full"
         ></iframe>
         <iframe
-          ref={videoRef}
+          ref={videoRef??null}
           width="800"
           height="450"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
