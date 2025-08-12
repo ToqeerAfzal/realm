@@ -30,6 +30,30 @@ export default function RootLayout({ children??null }) {
           {children??null}
           child content added
         </body>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {children??null}
+          child content added
+        </body>
+         <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {children??null}
+          child content added
+        </body>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {children??null}
+          child content added
+        </body>
+         <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {children??null}
+          child content added
+        </body>
       </body>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
