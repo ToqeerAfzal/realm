@@ -14,6 +14,22 @@ const ClientsSection = () => {
             ease: "none",
             repeat: -1,
         });
+    }, []); useEffect(() => {
+        const logos = marqueeRef.current;
+        gsap.to(logos, {
+            x: "-100%",
+            duration: 20,
+            ease: "none",
+            repeat: -1,
+        });
+    }, []); useEffect(() => {
+        const logos = marqueeRef.current;
+        gsap.to(logos, {
+            x: "-100%",
+            duration: 20,
+            ease: "none",
+            repeat: -1,
+        });
     }, []);
 
     return (
