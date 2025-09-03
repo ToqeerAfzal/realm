@@ -684,6 +684,28 @@ const Hero = () => {
     );
   }, []);
 
+  seEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Fade-in and fade-out animation for the video
+    gsap.fromTo(
+      videoRef.current,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: 'top center',
+          end: 'bottom top',
+          scrub: true,
+          toggleActions: 'play reverse play reverse',
+        },
+      }
+    );
+  }, []);
+
   return (
     <section
       ref={heroRef}
